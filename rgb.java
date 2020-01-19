@@ -129,7 +129,7 @@ public class rgb
     {
         try
         { 
-            f = new File("D:\\Out.png"); 
+            f = new File("Out.png"); 
             ImageIO.write(img, "png", f); 
         } 
         catch(IOException e) 
